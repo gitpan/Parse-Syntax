@@ -1,28 +1,21 @@
-#TITLE=Perl
+
+
 
 #DELIMITER=,(){}[]-+*/=~!&|<>?:;.
-#QUOTATION1='
-#QUOTATION2="
+#QUOTATION='
+#QUOTATION="
 #CONTINUE_QUOTE=n
 #LINECOMMENT=#
-#LINECOMMENT2=
+#LINECOMMENT=
 #COMMENTON=
 #COMMENTOFF=
-#COMMENTON2=
-#COMMENTOFF2=
+#COMMENTON=
+#COMMENTOFF=
 #ESCAPE=\
 #CASE=y
-#PREFIX1=
-#PREFIX2=
-#PREFIX3=$
-#PREFIX4=@
-#PREFIX5=%
-#SUFFIX1=
-#SUFFIX2=
-#SUFFIX3=
-#SUFFIX4=
-#SUFFIX5=
-#SPECIAL_STX=perl
+#PREFIX=$
+#PREFIX=@
+#PREFIX=%
 
 #KEYWORD=Reserved words
 continue
@@ -78,9 +71,6 @@ q
 qq
 qx
 qw
-$
-@
-%
 
 #KEYWORD=Built-in functions
 abs
@@ -270,11 +260,3 @@ waitpid
 wantarray
 warn
 write
-
-#KEYWORD=Scalar variables
-
-#KEYWORD=Array variables
-
-#KEYWORD=Hash variables
-
-#

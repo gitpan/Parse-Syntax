@@ -1,0 +1,28 @@
+
+----------------------------------------------------------
+Parse::Syntax 0.02   by Sherzod Ruzmetov, a.k.a. sherzodR
+---------------------------------------------------------
+
+NOTE: This is the alpha version! Changes to be made in the 
+next releases are not guaranteed to be backward compatible.
+Please read the documentation of the respective version if 
+you intend to apply it.
+
+The application is installed in standard way by running 
+Makefile.PL.
+
+Following is a refreshed for module installation in *nix
+
+% perl Makefile.PL
+
+% make
+
+% make install
+
+After installing the module you have to copy the Stx/*.stx files
+to some location of your choise (you don't have to though). It has all 
+the syntax files that our Parse::Syntax file expects to use to be able
+to parse the program the way intended. Also, the location of the Stx/ 
+folder should be parsed as a parameter to the contructor method 
+( new() ), so it is worth to remember the location of the Stx/ folder.
+
